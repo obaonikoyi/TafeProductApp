@@ -77,5 +77,9 @@ namespace ProductApps
             TotalCharge = TotalPayment + 25 + 5;
         }
 
+        public void calTotalChargeWrap()
+        {
+            TotalCharge = TotalPayment + 25 + 5;
+        }
     }
 }
