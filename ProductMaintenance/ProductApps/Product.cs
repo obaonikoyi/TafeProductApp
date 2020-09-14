@@ -81,5 +81,11 @@ namespace ProductApps
         {
             TotalCharge = TotalPayment + 25 + 5;
         }
+
+        public void calTotalChargeGST()
+        {
+            double GST = 1.1;
+            TotalCharge = (TotalPayment + 25 + 5) * (decimal)GST;
+        }
     }
 }
